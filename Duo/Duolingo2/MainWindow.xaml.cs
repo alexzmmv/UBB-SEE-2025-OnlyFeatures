@@ -65,7 +65,7 @@ namespace Duolingo2
                 Grid.SetColumn(ellipse, 0);
                 grid.Children.Add(ellipse);
 
-                // Con?inut curs
+                // Continut curs
                 var contentStack = new StackPanel { Margin = new Thickness(20, 0, 0, 0), VerticalAlignment = VerticalAlignment.Center };
 
                 var title = new TextBlock
@@ -114,7 +114,7 @@ namespace Duolingo2
 
                 border.Child = grid;
 
-                // ?? Hover effect
+                //Hover effect
                 var originalBackground = border.Background;
                 border.PointerEntered += (s, e) =>
                 {
@@ -125,7 +125,7 @@ namespace Duolingo2
                     border.Background = originalBackground;
                 };
 
-                // ?? Click ? Deschide fereastra cu titlul cursului
+                //Deschide fereastra cu titlul cursului
                 border.Tapped += (s, e) =>
                 {
                     var courseWindow = new CourseWindow(courseVM.Course.Name);

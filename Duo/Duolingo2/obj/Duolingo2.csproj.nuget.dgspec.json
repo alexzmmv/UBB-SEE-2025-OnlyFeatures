@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Facultate_nou\\ISS\\Duolingo2\\Duolingo2\\Duolingo2.csproj": {}
+    "Z:\\Facultate_nou\\ISS\\Duolingo3\\UBB-SEE-2025-OnlyFeatures\\Duo\\Duolingo2\\Duolingo2.csproj": {}
   },
   "projects": {
-    "Z:\\Facultate_nou\\ISS\\Duolingo2\\Duolingo2\\Duolingo2.csproj": {
+    "Z:\\Facultate_nou\\ISS\\Duolingo3\\UBB-SEE-2025-OnlyFeatures\\Duo\\Duolingo2\\Duolingo2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Facultate_nou\\ISS\\Duolingo2\\Duolingo2\\Duolingo2.csproj",
+        "projectUniqueName": "Z:\\Facultate_nou\\ISS\\Duolingo3\\UBB-SEE-2025-OnlyFeatures\\Duo\\Duolingo2\\Duolingo2.csproj",
         "projectName": "Duolingo2",
-        "projectPath": "Z:\\Facultate_nou\\ISS\\Duolingo2\\Duolingo2\\Duolingo2.csproj",
+        "projectPath": "Z:\\Facultate_nou\\ISS\\Duolingo3\\UBB-SEE-2025-OnlyFeatures\\Duo\\Duolingo2\\Duolingo2.csproj",
         "packagesPath": "C:\\Users\\beatr\\.nuget\\packages\\",
-        "outputPath": "Z:\\Facultate_nou\\ISS\\Duolingo2\\Duolingo2\\obj\\",
+        "outputPath": "Z:\\Facultate_nou\\ISS\\Duolingo3\\UBB-SEE-2025-OnlyFeatures\\Duo\\Duolingo2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

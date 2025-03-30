@@ -1,4 +1,6 @@
-﻿namespace Duolingo2.Models
+﻿//e un model de topic ajutator
+
+namespace Duolingo2.Models
 {
     public class Topic
     {

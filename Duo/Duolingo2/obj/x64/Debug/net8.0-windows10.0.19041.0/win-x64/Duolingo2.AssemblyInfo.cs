@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Duolingo2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c6f5a3061574741232bd936be7d8dfadf9280af")]
 [assembly: System.Reflection.AssemblyProductAttribute("Duolingo2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Duolingo2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿//E un CursModelView ajutator
+
+using System.Collections.Generic;
 
 namespace Duolingo2.Models
 {

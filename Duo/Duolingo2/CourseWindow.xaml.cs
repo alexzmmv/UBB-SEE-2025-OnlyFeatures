@@ -1,3 +1,4 @@
+//Aici e un CourseWindow.xaml.cs ajutator
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 

@@ -1,3 +1,4 @@
+<!--Aici am facut un CourseWindow.xaml ajutator ca sa pot sa testez lista de cursuri in MainWindow-->    
 <Window
     x:Class="Duolingo2.CourseWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"

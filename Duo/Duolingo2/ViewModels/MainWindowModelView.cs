@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿//E un MainWindowModelView ajutator
+using System.Collections.Generic;
 using System.Linq;
 using Duolingo2.Models;
 

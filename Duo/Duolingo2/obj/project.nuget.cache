@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dcIxkZEezcw=",
+  "dgSpecHash": "O3/uPiV/BUM=",
   "success": true,
-  "projectFilePath": "Z:\\Facultate_nou\\ISS\\Duolingo2\\Duolingo2\\Duolingo2.csproj",
+  "projectFilePath": "Z:\\Facultate_nou\\ISS\\Duolingo3\\UBB-SEE-2025-OnlyFeatures\\Duo\\Duolingo2\\Duolingo2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\beatr\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.26100.1742\\microsoft.windows.sdk.buildtools.10.0.26100.1742.nupkg.sha512",

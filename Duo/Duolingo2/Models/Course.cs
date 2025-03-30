@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿//Aici am facut un model de curs ajutator
+using System.Collections.Generic;
 
 namespace Duolingo2.Models
 {
