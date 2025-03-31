@@ -17,7 +17,7 @@ namespace Duo
 
         public void UpdateEnrollmentStatus(int userId)
         {
-            IsEnrolled = userId >= 0 ? Course.IsUserEnrolled(userId) : false;
+            IsEnrolled = userId >= 0 ? Course.IsUserEnrolled() : false;
         }
     }
 }
