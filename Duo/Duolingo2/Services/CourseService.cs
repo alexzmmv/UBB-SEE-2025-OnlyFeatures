@@ -6,7 +6,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//Still needed(not neccessarily in this class): DailyLoginReward
 //Some methods have as parameter userId, do not worry about it, by default it is 0, you do not need to give a value, just call the method without it
 // ex. for method1(int courseId, int userId = 0) you would simply call it by method1(courseId)
 
