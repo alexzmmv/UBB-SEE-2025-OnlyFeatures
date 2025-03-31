@@ -6,8 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 //Some methods have as parameter userId, do not worry about it, by default it is 0, you do not need to give a value, just call the method without it
 // ex. for method1(int courseId, int userId = 0) you would simply call it by method1(courseId)
+
 
 namespace Duo.Services
 {
@@ -26,6 +28,7 @@ namespace Duo.Services
             this.currentUserId = 0;
         }
 
+
         // Daily Login Reward method added here in CourseService, move at your own will
 
         public void GrantUserDailyReward(int userId = 0)
@@ -37,6 +40,7 @@ namespace Duo.Services
         }
 
         // Daily Login Reward method added here in CourseService, move at your own will
+
 
         public List<Course> GetAllCourses()
         {
@@ -114,7 +118,9 @@ namespace Duo.Services
             Course course = _courseRepository.GetCourseByIdAsync(courseId).Result;
             foreach (var module in course.Modules)
             {
+
                 if (!_moduleRepository.IsModuleCompletedAsync(currentUserId, courseId, module.ModuleId).Result && !module.IsBonusModule)
+
                 {
                     return false;
                 }
@@ -128,6 +134,7 @@ namespace Duo.Services
             int userCoins = _coinRepository.GetCoinsByUserIdAsync(currentUserId).Result;
             _coinRepository.SetUserCoinBalanceAsync(currentUserId, userCoins + course.CompletionReward);
         }
+
 
         public int GetUserCourseTimer(int courseId, int userId = 0)
         {
@@ -156,5 +163,6 @@ namespace Duo.Services
             int userCoins = _coinRepository.GetCoinsByUserIdAsync(userId).Result;
             _coinRepository.SetUserCoinBalanceAsync(currentUserId, userCoins + course.TimerCompletionReward);
         }
+
     }
 }

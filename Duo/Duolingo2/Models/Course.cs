@@ -20,11 +20,18 @@ namespace Duo.Models
         public CourseType Type { get; }
         public DateTime CreatedAt { get; }
         public int DifficultyLevel { get; }
+
         public int TimerDurationSeconds { get; }
         public int TimerCompletionReward { get; }
         public int CompletionReward { get; }
 
         public Course(int id, string title, string description, List<Tag> tags, string imagePath, bool isEnrolled, CourseType type, DateTime createdAt, int difficultyLevel, int timerDurationSeconds, int timerCompletionReward, int completionReward, List<Module> modules)
+
+        public int TimerDurationMinutes { get; }
+        public int TimerCompletionReward { get; }
+        public int CompletionReward { get; }
+
+        public Course(int id, string title, string description, List<Tag> tags, string imagePath, bool isEnrolled, CourseType type, DateTime createdAt, int difficultyLevel, int timerDurationMinutes, int timerCompletionReward, int completionReward, List<Module> modules)
         {
             Id = id;
             Title = title;

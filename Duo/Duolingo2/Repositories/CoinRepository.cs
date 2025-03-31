@@ -78,6 +78,7 @@ namespace Duo.Repositories
             }
         }
 
+
         public async Task<bool> CheckDailyLoginEligibility(int userId = 0)
         {
             try
@@ -111,6 +112,7 @@ namespace Duo.Repositories
                 throw new Exception("An unexpected error occurred.", ex);
             }
         }
+
     }
 }
 

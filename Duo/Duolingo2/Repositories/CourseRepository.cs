@@ -24,7 +24,9 @@ namespace Duo.Repositories
             {
                 await connection.OpenAsync();
 
+
                 var query = @"SELECT c.CourseId, c.Title, c.Description, c.TypeId, ct.TypeName, ct.Price, c.CreatedAt, c.ImagePath, c.DifficultyLevel, c.TimerDurationSeconds, c.TimerCompletionReward, c.CompletionReward
+
                              FROM Courses c
                              JOIN CourseTypes ct ON c.TypeId = ct.TypeId";
 
@@ -73,7 +75,9 @@ namespace Duo.Repositories
             {
                 await connection.OpenAsync();
 
+
                 var query = @"SELECT c.CourseId, c.Title, c.Description, c.TypeId, ct.TypeName, ct.Price, c.CreatedAt, c.ImagePath, c.DifficultyLevel, c.TimerDurationSeconds, c.TimerCompletionReward, c.CompletionReward
+
                              FROM Courses c
                              JOIN CourseTypes ct ON c.TypeId = ct.TypeId
                              WHERE c.CourseId = @CourseId";
@@ -184,6 +188,7 @@ namespace Duo.Repositories
             }
         }
 
+
         public async Task<int> GetUserCourseTimer(int courseId, int userId = 0)
         {
             using (var connection = _dbConnection.GetConnection())
@@ -229,5 +234,6 @@ namespace Duo.Repositories
                 }
             }
         }
+
     }
 }

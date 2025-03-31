@@ -65,6 +65,7 @@ namespace Duo.Repositories
                 }
             }
             return null;
+
         }
 
         public async Task<Module> GetModuleByModuleId(int moduleId)
