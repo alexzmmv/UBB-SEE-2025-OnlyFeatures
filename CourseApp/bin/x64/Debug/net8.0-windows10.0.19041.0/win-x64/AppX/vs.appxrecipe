@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>e0b58830-a6fa-40b7-8a56-45239112c975</PackageIdentityName>
     <PackageIdentityPublisher>CN=feket</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Raluca\Source\Repos\UBB-SEE-2025-OnlyFeatures\CourseApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Raluca\source\repos\UBB-SEE-2025-OnlyFeatures\CourseApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Raluca\Source\Repos\UBB-SEE-2025-OnlyFeatures\CourseApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Raluca\source\repos\UBB-SEE-2025-OnlyFeatures\CourseApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>354541C0AF208355092B843CE078511D7ACA04D13C9D08B7C00E3558952FC035</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e0b58830-a6fa-40b7-8a56-45239112c975_1.0.0.0_x64__0b0hjrwhdgfcc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e0b58830-a6fa-40b7-8a56-45239112c975_0b0hjrwhdgfcc!App</RegisteredUserModeAppID>
@@ -26,28 +26,28 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Raluca\Source\Repos\UBB-SEE-2025-OnlyFeatures\CourseApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Raluca\source\repos\UBB-SEE-2025-OnlyFeatures\CourseApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-02T17:14:09.726</Modified>
+      <Modified>2025-04-02T17:43:34.936</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Raluca\Source\Repos\UBB-SEE-2025-OnlyFeatures\CourseApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Raluca\source\repos\UBB-SEE-2025-OnlyFeatures\CourseApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2025-04-02T17:13:40.489</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Raluca\Source\Repos\UBB-SEE-2025-OnlyFeatures\CourseApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CourseApp.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\Raluca\source\repos\UBB-SEE-2025-OnlyFeatures\CourseApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CourseApp.runtimeconfig.json">
       <PackagePath>CourseApp.runtimeconfig.json</PackagePath>
-      <Modified>2025-04-02T17:13:40.210</Modified>
+      <Modified>2025-04-02T17:43:34.306</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Raluca\Source\Repos\UBB-SEE-2025-OnlyFeatures\CourseApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CourseApp.dll">
+    <AppxPackagedFile Include="C:\Users\Raluca\source\repos\UBB-SEE-2025-OnlyFeatures\CourseApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CourseApp.dll">
       <PackagePath>CourseApp.dll</PackagePath>
-      <Modified>2025-04-02T17:14:09.373</Modified>
+      <Modified>2025-04-02T17:43:33.592</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Raluca\Source\Repos\UBB-SEE-2025-OnlyFeatures\CourseApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\Raluca\source\repos\UBB-SEE-2025-OnlyFeatures\CourseApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>CourseApp.exe</PackagePath>
-      <Modified>2025-04-02T17:14:09.389</Modified>
+      <Modified>2025-04-02T17:43:33.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Raluca\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.14\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1085,39 +1085,39 @@
       <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
       <Modified>2024-11-10T08:57:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Raluca\Source\Repos\UBB-SEE-2025-OnlyFeatures\CourseApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CourseApp.deps.json">
+    <AppxPackagedFile Include="C:\Users\Raluca\source\repos\UBB-SEE-2025-OnlyFeatures\CourseApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CourseApp.deps.json">
       <PackagePath>CourseApp.deps.json</PackagePath>
-      <Modified>2025-04-02T17:13:40.068</Modified>
+      <Modified>2025-04-02T17:43:34.083</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Raluca\Source\Repos\UBB-SEE-2025-OnlyFeatures\CourseApp\Assets\image.png">
+    <AppxPackagedFile Include="C:\Users\Raluca\source\repos\UBB-SEE-2025-OnlyFeatures\CourseApp\Assets\image.png">
       <PackagePath>Assets\image.png</PackagePath>
       <Modified>2025-04-02T17:07:59.528</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Raluca\Source\Repos\UBB-SEE-2025-OnlyFeatures\CourseApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Raluca\source\repos\UBB-SEE-2025-OnlyFeatures\CourseApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2025-04-02T17:07:59.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Raluca\Source\Repos\UBB-SEE-2025-OnlyFeatures\CourseApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Raluca\source\repos\UBB-SEE-2025-OnlyFeatures\CourseApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <Modified>2025-04-02T17:07:59.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Raluca\Source\Repos\UBB-SEE-2025-OnlyFeatures\CourseApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Raluca\source\repos\UBB-SEE-2025-OnlyFeatures\CourseApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <Modified>2025-04-02T17:07:59.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Raluca\Source\Repos\UBB-SEE-2025-OnlyFeatures\CourseApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Raluca\source\repos\UBB-SEE-2025-OnlyFeatures\CourseApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <Modified>2025-04-02T17:07:59.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Raluca\Source\Repos\UBB-SEE-2025-OnlyFeatures\CourseApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Raluca\source\repos\UBB-SEE-2025-OnlyFeatures\CourseApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <Modified>2025-04-02T17:07:59.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Raluca\Source\Repos\UBB-SEE-2025-OnlyFeatures\CourseApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Raluca\source\repos\UBB-SEE-2025-OnlyFeatures\CourseApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <Modified>2025-04-02T17:07:59.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Raluca\Source\Repos\UBB-SEE-2025-OnlyFeatures\CourseApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Raluca\source\repos\UBB-SEE-2025-OnlyFeatures\CourseApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <Modified>2025-04-02T17:07:59.496</Modified>
     </AppxPackagedFile>

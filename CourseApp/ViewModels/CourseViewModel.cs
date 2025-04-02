@@ -46,6 +46,7 @@ namespace CourseApp.ViewModels
         {
             courseService = new CourseService();
             coinsService = new CoinsService();
+            coinsService.GetUserCoins(0);
             CurrentCourse = course;
             Modules = new ObservableCollection<Models.Module>(courseService.GetModules(course.CourseId));
             IsEnrolled = courseService.IsUserEnrolled(course.CourseId);

@@ -103,6 +103,7 @@ namespace CourseApp.ViewModels
         {
             courseService = new CourseService();
             coinsService = new CoinsService();
+            coinsService.GetUserCoins(0);
             // Initially load all courses and tags.
             Courses = new ObservableCollection<Course>(courseService.GetCourses());
             var tagList = courseService.GetTags();

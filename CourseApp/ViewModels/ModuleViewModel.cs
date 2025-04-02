@@ -19,6 +19,7 @@ namespace CourseApp.ViewModels
         {
             courseService = new CourseService();
             coinsService = new CoinsService();
+            coinsService.GetUserCoins(0);
             CurrentModule = module;
             IsCompleted = courseService.IsModuleCompleted(module.ModuleId);
             CompleteModuleCommand = new RelayCommand(ExecuteCompleteModule, CanCompleteModule);
