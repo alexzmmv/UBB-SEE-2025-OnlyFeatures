@@ -16,14 +16,14 @@ namespace CourseApp.ViewModels
         private DateTime sessionStartTime;
         private int totalTimeSpent;
         private readonly CourseService courseService;
+        private readonly CoinsService coinsService;
         public Course CurrentCourse { get; set; }
         public ObservableCollection<Models.Module> Modules { get; set; }
         public ICommand EnrollCommand { get; set; }
         public bool IsEnrolled { get; set; }
         public int CoinBalance
         {
-            //TODO Implement the CoinBalance property
-            get => 20;
+            get => coinsService.GetUserCoins(0);
         }
 
         private string timeSpent;
@@ -45,6 +45,7 @@ namespace CourseApp.ViewModels
         public CourseViewModel(Course course)
         {
             courseService = new CourseService();
+            coinsService = new CoinsService();
             CurrentCourse = course;
             Modules = new ObservableCollection<Models.Module>(courseService.GetModules(course.CourseId));
             IsEnrolled = courseService.IsUserEnrolled(course.CourseId);

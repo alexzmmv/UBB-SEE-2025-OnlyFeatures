@@ -1,1 +1,1 @@
-C:\Users\Sonia\Desktop\UBB-SEE-2025-OnlyFeatures\CourseApp\CourseApp.csproj;x64
+C:\Users\Raluca\Source\Repos\UBB-SEE-2025-OnlyFeatures\CourseApp\CourseApp.csproj;x64
