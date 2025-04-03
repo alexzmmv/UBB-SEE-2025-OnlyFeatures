@@ -5,5 +5,7 @@
     xmlns:conv="using:CourseApp.Converters">
     <Application.Resources>
         <conv:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
+        <conv:InverseBooleanToVisibilityConverter x:Key="InverseBooleanToVisibilityConverter"/>
+        <conv:AvailabilityColorConverter x:Key="AvailabilityColorConverter"/>
     </Application.Resources>
 </Application>
