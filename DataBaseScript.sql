@@ -75,6 +75,20 @@ CREATE TABLE UserProgress (
     FOREIGN KEY (ModuleId) REFERENCES Modules(ModuleId) ON DELETE NO ACTION
 );
 
+
+ALTER TABLE Courses ADD TimeLimit INT DEFAULT 3600; -- Default 1 hour
+ALTER TABLE Courses ADD TimedRewardAmount INT DEFAULT 100; -- Default 100 coins
+
+-- Create CourseCompletions table
+CREATE TABLE CourseCompletions (
+    UserId INT NOT NULL,
+    CourseId INT NOT NULL,
+    CompletionRewardClaimed BIT NOT NULL DEFAULT 0,
+    TimedRewardClaimed BIT NOT NULL DEFAULT 0,
+    CompletedAt DATETIME NOT NULL,
+    PRIMARY KEY (UserId, CourseId)
+);
+
 -- User Wallet Table
 CREATE TABLE UserWallet (
     UserId INT PRIMARY KEY,
@@ -119,4 +133,3 @@ VALUES
 (2, 1), (2, 2),
 (3, 3), (3, 4);
 
-select @@SERVERNAME as ServerName
