@@ -9,5 +9,7 @@
         public int Cost { get; set; }
         public string ImageUrl { get; set; }
         public int TimeToComplete { get; set; } // in seconds
+        public int TimeLimit { get; set; }
+        public int TimedRewardAmount { get; set; }
     }
 }

@@ -15,13 +15,16 @@ namespace CourseApp.ViewModels
         public ICommand CompleteModuleCommand { get; set; }
         public ICommand ModuleImageClick { get; }
 
-        public ModuleViewModel(Models.Module module , CourseViewModel courseVM)
+        public bool IsModuleAvailable { get; private set; }
+
+        public ModuleViewModel(Models.Module module, CourseViewModel courseVM)
         {
             courseService = new CourseService();
             coinsService = new CoinsService();
             coinsService.GetUserCoins(0);
             CurrentModule = module;
             IsCompleted = courseService.IsModuleCompleted(module.ModuleId);
+            IsModuleAvailable = courseService.IsModuleAvailable(module.ModuleId);
             CompleteModuleCommand = new RelayCommand(ExecuteCompleteModule, CanCompleteModule);
             ModuleImageClick = new RelayCommand(OnModuleImageClick);
             courseViewModel = courseVM;
@@ -51,13 +54,13 @@ namespace CourseApp.ViewModels
 
         private bool CanCompleteModule(object parameter)
         {
-            return !IsCompleted;
+            return !IsCompleted && IsModuleAvailable;
         }
 
         private void ExecuteCompleteModule(object parameter)
         {
-            // Mark module as complete in the database.
-            courseService.CompleteModule(CurrentModule.ModuleId);
+            // Mark module as complete
+            courseViewModel.UpdateModuleCompletion(CurrentModule.ModuleId);
             IsCompleted = true;
             OnPropertyChanged(nameof(IsCompleted));
         }
