@@ -1,7 +1,11 @@
-﻿using System.Windows.Input;
-using CourseApp.Models;
+﻿using CourseApp.Models;
 using CourseApp.Services;
+using System;
+using System.Windows.Input;
+using Windows.ApplicationModel.Core;
 using Windows.UI.Popups;
+using Microsoft.UI.Xaml.Controls;
+using CourseApp.Views;
 
 namespace CourseApp.ViewModels
 {
@@ -13,7 +17,8 @@ namespace CourseApp.ViewModels
         public Module CurrentModule { get; set; }
         public bool IsCompleted { get; set; }
         public ICommand CompleteModuleCommand { get; set; }
-        public ICommand ModuleImageClick { get; }
+
+        public ICommand OnModuleImageClick { get; set; }
 
         public ModuleViewModel(Models.Module module , CourseViewModel courseVM)
         {
@@ -23,8 +28,9 @@ namespace CourseApp.ViewModels
             CurrentModule = module;
             IsCompleted = courseService.IsModuleCompleted(module.ModuleId);
             CompleteModuleCommand = new RelayCommand(ExecuteCompleteModule, CanCompleteModule);
-            ModuleImageClick = new RelayCommand(OnModuleImageClick);
+            OnModuleImageClick = new RelayCommand(ExecuteModuleImageClick);
             courseViewModel = courseVM;
+            courseService.OpenModule(module.ModuleId);
             courseViewModel.PropertyChanged += (s, e) =>
             {
                 if (e.PropertyName == nameof(courseViewModel.TimeSpent))
@@ -32,21 +38,22 @@ namespace CourseApp.ViewModels
                     OnPropertyChanged(nameof(TimeSpent));
                 }
             };
+            courseService.OpenModule(module.ModuleId);
         }
 
+        private async void ExecuteModuleImageClick(object? obj)
+        {
+
+            bool confirmStatus = courseService.ClickModuleImage(CurrentModule.ModuleId);
+            if(confirmStatus)
+                OnPropertyChanged(nameof(CoinBalance));
+        }
         public string TimeSpent => courseViewModel.TimeSpent;
 
 
         public int CoinBalance
         {
             get => coinsService.GetUserCoins(0);
-        }
-
-        private async void OnModuleImageClick(object? parameter)
-        {
-            // Pop up with a text
-            MessageDialog dialog = new MessageDialog("Image clicked");
-            dialog.ShowAsync();
         }
 
         private bool CanCompleteModule(object parameter)
@@ -56,7 +63,6 @@ namespace CourseApp.ViewModels
 
         private void ExecuteCompleteModule(object parameter)
         {
-            // Mark module as complete in the database.
             courseService.CompleteModule(CurrentModule.ModuleId);
             IsCompleted = true;
             OnPropertyChanged(nameof(IsCompleted));
