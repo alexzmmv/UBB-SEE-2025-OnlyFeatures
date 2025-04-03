@@ -74,8 +74,7 @@
               "RelativeToolTip": "ViewModels\\ModuleViewModel.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAwwD4AAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T05:57:26.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T05:57:26.686Z"
             },
             {
               "$type": "Document",
@@ -85,7 +84,7 @@
               "RelativeDocumentMoniker": "ViewModels\\CourseViewModel.cs",
               "ToolTip": "C:\\Users\\Sonia\\Desktop\\UBB-SEE-2025-OnlyFeatures\\CourseApp\\ViewModels\\CourseViewModel.cs",
               "RelativeToolTip": "ViewModels\\CourseViewModel.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAuwHQAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T05:51:57.37Z",
               "EditorCaption": ""
@@ -100,8 +99,7 @@
               "RelativeToolTip": "Views\\CoursePage.xaml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T05:49:00.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T05:49:00.32Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "Views\\MainPage.xaml.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAswDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T05:48:51.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T05:48:51.174Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "Views\\MainWindow.xaml.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAswF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T05:48:37.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T05:48:37.875Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "Views\\ModulePage.xaml.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAswCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T05:48:25.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T05:48:25.445Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "Views\\CoursePage.xaml",
               "ViewState": "AgIAADgAAAAAAAAAAAAYwEgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-03T05:48:19.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T05:48:19.016Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "Services\\CourseService.cs",
               "ViewState": "AgIAAG0AAAAAAAAAAAAAwH0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T05:48:10.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T05:48:10.502Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "Services\\CoinsService.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAQwDEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T05:48:01.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T05:48:01.538Z"
             },
             {
               "$type": "Document",
@@ -191,8 +183,7 @@
               "RelativeToolTip": "Repository\\CourseRepository.cs",
               "ViewState": "AgIAANQAAAAAAAAAAAAYwOYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T05:47:51.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T05:47:51.512Z"
             },
             {
               "$type": "Document",
@@ -204,8 +195,7 @@
               "RelativeToolTip": "Repository\\CoinsReposistory.cs",
               "ViewState": "AgIAAHMAAAAAAAAAAAAQwIQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T05:47:44.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T05:47:44.86Z"
             },
             {
               "$type": "Document",
@@ -217,8 +207,7 @@
               "RelativeToolTip": "Data\\DataLink.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T05:45:05.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T05:45:05.531Z"
             }
           ]
         }
