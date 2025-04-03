@@ -64,12 +64,8 @@ namespace CourseApp.ViewModels
 
         private void ExecuteCompleteModule(object parameter)
         {
-<<<<<<< HEAD
-            courseService.CompleteModule(CurrentModule.ModuleId);
-=======
             // Mark module as complete in the database.
             this.courseViewModel.UpdateModuleCompletion(CurrentModule.ModuleId);
->>>>>>> main
             IsCompleted = true;
             OnPropertyChanged(nameof(IsCompleted));
             courseViewModel.ReloadModules(); // Refresh roadmap to unlock the next module

@@ -149,19 +149,6 @@ namespace CourseApp.Services
         }
 
 
-        public bool ClickModuleImage(int moduleId)
-        {
-            if(repository.IsModuleImageClicked(UserId, moduleId))
-            {
-                return false ;
-            }
-            
-            repository.ClickModuleImage(UserId, moduleId);
-            coinsRepository.AddCoins(UserId, 10);
-            return true;
-
-        }
-
 
         public bool IsModuleAvailable(int moduleId)
         {
