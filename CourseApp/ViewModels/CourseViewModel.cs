@@ -91,7 +91,7 @@ namespace CourseApp.ViewModels
             IsEnrolled = courseService.IsUserEnrolled(course.CourseId);
             EnrollCommand = new RelayCommand(ExecuteEnroll, CanEnroll);
 
-            LoadModules(); // ✅ load modules, regardless of enrollment status
+            LoadModules(); 
 
 
 
